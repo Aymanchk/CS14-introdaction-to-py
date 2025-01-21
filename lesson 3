@@ -1,0 +1,11 @@
+price = int(input("Введите цену товара: "))
+skidka = int(input("Введите процент скидки: "))
+
+
+okonchatelnaya_cena=(skidka/100)*price
+
+final_price=price-okonchatelnaya_cena
+
+print(f"Цена товара: {price:f}")
+print(f"Скидка: {okonchatelnaya_cena:f}")
+print(f"Итоговая цена после скидки:{final_price:f}")
