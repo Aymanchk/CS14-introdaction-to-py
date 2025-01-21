@@ -1,0 +1,4 @@
+# c=float(input("enter your celcium:"))
+# f=9/5*c+32
+# ay1=int(f)
+# print(f"celcium {c} in foreghrits f in integer {int(f)}")
